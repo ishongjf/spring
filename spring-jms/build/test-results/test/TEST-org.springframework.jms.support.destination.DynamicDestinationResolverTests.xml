@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.support.destination.DynamicDestinationResolverTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:32:24" hostname="WIN-LQAMLJ4MN5U" time="0.005">
+  <properties/>
+  <testcase name="resolveWithPubSubVanillaSession()" classname="org.springframework.jms.support.destination.DynamicDestinationResolverTests" time="0.001"/>
+  <testcase name="resolveWithPubSubTopicSession()" classname="org.springframework.jms.support.destination.DynamicDestinationResolverTests" time="0.0"/>
+  <testcase name="resolveWithPointToPointVanillaSession()" classname="org.springframework.jms.support.destination.DynamicDestinationResolverTests" time="0.0"/>
+  <testcase name="resolveWithPointToPointQueueSession()" classname="org.springframework.jms.support.destination.DynamicDestinationResolverTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

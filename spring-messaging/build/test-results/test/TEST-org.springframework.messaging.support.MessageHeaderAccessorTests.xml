@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.support.MessageHeaderAccessorTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:35:01" hostname="WIN-LQAMLJ4MN5U" time="0.106">
+  <properties/>
+  <testcase name="getMutableAccessorNewInstanceMatchingType()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="leaveMutable()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="copyHeadersIfAbsent()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="getShortLogMessagePayload()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="newEmptyHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.002"/>
+  <testcase name="idGeneratorCustom()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="getMutableAccessorSameInstance()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="testRemoveHeader()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="getDetailedLogMessagePayload()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="getMutableAccessorNewInstance()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="getAccessor()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="idTimestampWithMutableHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="toMap()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="copyHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="timestampDefaultBehavior()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="existingHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.02"/>
+  <testcase name="serializeMutableHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.01"/>
+  <testcase name="leaveMutableDefaultBehavior()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="timestampEnabled()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="copyHeadersFromNullMap()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="existingHeadersModification()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.055"/>
+  <testcase name="removeHeaders()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="idGeneratorDefaultBehavior()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="testRemoveHeaderEvenIfNull()" classname="org.springframework.messaging.support.MessageHeaderAccessorTests" time="0.001"/>
+  <system-out><![CDATA[00:35:01.996 [tcp-client-scheduler-59] WARN  i.n.c.AbstractChannel - Force-closing a channel whose registration task was not accepted by an event loop: [id: 0x678a8e72]
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:926) ~[netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:353) ~[netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:346) ~[netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:828) ~[netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:818) ~[netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register(AbstractChannel.java:471) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.SingleThreadEventLoop.register(SingleThreadEventLoop.java:87) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.SingleThreadEventLoop.register(SingleThreadEventLoop.java:81) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at reactor.netty.resources.ColocatedEventLoopGroup.register(ColocatedEventLoopGroup.java:71) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at io.netty.bootstrap.AbstractBootstrap.initAndRegister(AbstractBootstrap.java:323) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:155) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:116) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at reactor.netty.resources.PooledConnectionProvider$PooledConnectionAllocator.lambda$connectChannel$0(PooledConnectionProvider.java:245) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:57) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4363) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4223) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4159) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4131) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.drainLoop(SimpleDequePool.java:317) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.drain(SimpleDequePool.java:260) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.doAcquire(SimpleDequePool.java:255) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.request(AbstractPool.java:382) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.resources.PooledConnectionProvider$DisposableAcquire.onSubscribe(PooledConnectionProvider.java:534) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool$QueueBorrowerMono.subscribe(SimpleDequePool.java:577) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.resources.PooledConnectionProvider.disposableAcquire(PooledConnectionProvider.java:220) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.resources.PooledConnectionProvider.lambda$acquire$3(PooledConnectionProvider.java:184) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:57) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.resubscribe(FluxRetryWhen.java:204) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onNext(FluxRetryWhen.java:250) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.tryEmit(FluxFlatMap.java:535) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapInner.onNext(FluxFlatMap.java:999) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

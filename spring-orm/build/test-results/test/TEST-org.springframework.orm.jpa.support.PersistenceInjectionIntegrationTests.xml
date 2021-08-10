@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.support.PersistenceInjectionIntegrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:34:23" hostname="WIN-LQAMLJ4MN5U" time="0.145">
+  <properties/>
+  <testcase name="testDefaultPersistenceContextSetterInjection()" classname="org.springframework.orm.jpa.support.PersistenceInjectionIntegrationTests" time="0.131"/>
+  <testcase name="testSetterInjectionOfNamedPersistenceContext()" classname="org.springframework.orm.jpa.support.PersistenceInjectionIntegrationTests" time="0.014"/>
+  <system-out><![CDATA[[EL Info]: 2021-03-05 00:34:23.548--ServerSession(324905640)--EclipseLink, version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
+[EL Warning]: metadata: 2021-03-05 00:34:23.55--ServerSession(324905640)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Fine]: sql: 2021-03-05 00:34:23.557--ServerSession(324905640)--Connection(759608614)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

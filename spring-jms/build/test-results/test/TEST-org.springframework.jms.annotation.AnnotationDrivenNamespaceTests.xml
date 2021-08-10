@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.annotation.AnnotationDrivenNamespaceTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:32:05" hostname="WIN-LQAMLJ4MN5U" time="8.61">
+  <properties/>
+  <testcase name="jmsListeners()" classname="org.springframework.jms.annotation.AnnotationDrivenNamespaceTests" time="3.272"/>
+  <testcase name="sampleConfiguration()" classname="org.springframework.jms.annotation.AnnotationDrivenNamespaceTests" time="0.059"/>
+  <testcase name="customConfiguration()" classname="org.springframework.jms.annotation.AnnotationDrivenNamespaceTests" time="0.365"/>
+  <testcase name="jmsHandlerMethodFactoryConfiguration()" classname="org.springframework.jms.annotation.AnnotationDrivenNamespaceTests" time="4.141"/>
+  <testcase name="explicitContainerFactory()" classname="org.springframework.jms.annotation.AnnotationDrivenNamespaceTests" time="0.057"/>
+  <testcase name="fullConfiguration()" classname="org.springframework.jms.annotation.AnnotationDrivenNamespaceTests" time="0.031"/>
+  <testcase name="defaultContainerFactory()" classname="org.springframework.jms.annotation.AnnotationDrivenNamespaceTests" time="0.039"/>
+  <testcase name="fullConfigurableConfiguration()" classname="org.springframework.jms.annotation.AnnotationDrivenNamespaceTests" time="0.573"/>
+  <testcase name="jmsListenerIsRepeatable()" classname="org.springframework.jms.annotation.AnnotationDrivenNamespaceTests" time="0.05"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

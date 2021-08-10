@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.DefaultJpaDialectTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:34:06" hostname="WIN-LQAMLJ4MN5U" time="1.908">
+  <properties/>
+  <testcase name="testDefaultTransactionDefinition()" classname="org.springframework.orm.jpa.DefaultJpaDialectTests" time="0.002"/>
+  <testcase name="testDefaultBeginTransaction()" classname="org.springframework.orm.jpa.DefaultJpaDialectTests" time="1.902"/>
+  <testcase name="testTranslateException()" classname="org.springframework.orm.jpa.DefaultJpaDialectTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

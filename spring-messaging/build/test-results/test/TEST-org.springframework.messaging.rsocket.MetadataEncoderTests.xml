@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.rsocket.MetadataEncoderTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:34:03" hostname="WIN-LQAMLJ4MN5U" time="0.023">
+  <properties/>
+  <testcase name="defaultDataBufferFactory()" classname="org.springframework.messaging.rsocket.MetadataEncoderTests" time="0.002"/>
+  <testcase name="routeWithVars()" classname="org.springframework.messaging.rsocket.MetadataEncoderTests" time="0.001"/>
+  <testcase name="compositeRequiredForMultipleEntries()" classname="org.springframework.messaging.rsocket.MetadataEncoderTests" time="0.002"/>
+  <testcase name="metadataWithTextPlainMimeType()" classname="org.springframework.messaging.rsocket.MetadataEncoderTests" time="0.0"/>
+  <testcase name="routeWithTextPlainMimeType()" classname="org.springframework.messaging.rsocket.MetadataEncoderTests" time="0.0"/>
+  <testcase name="compositeMetadata()" classname="org.springframework.messaging.rsocket.MetadataEncoderTests" time="0.013"/>
+  <testcase name="routeWithRoutingMimeType()" classname="org.springframework.messaging.rsocket.MetadataEncoderTests" time="0.001"/>
+  <testcase name="mimeTypeDoesNotMatchConnectionMetadataMimeType()" classname="org.springframework.messaging.rsocket.MetadataEncoderTests" time="0.001"/>
+  <testcase name="mimeTypeRequiredForCompositeEntries()" classname="org.springframework.messaging.rsocket.MetadataEncoderTests" time="0.001"/>
+  <testcase name="metadataWithByteBuf()" classname="org.springframework.messaging.rsocket.MetadataEncoderTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

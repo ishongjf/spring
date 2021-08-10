@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - RSocketBufferLeakTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>RSocketBufferLeakTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.messaging.rsocket.html">org.springframework.messaging.rsocket</a> &gt; RSocketBufferLeakTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">1</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.571s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">assemblyTimeErrorForHandleAndReply()</td>
+<td class="success">0.072s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">echoChannel()</td>
+<td class="success">0.315s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">errorSignalWithExceptionHandler()</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ignoreInput()</td>
+<td class="success">0.109s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">noSuchRouteOnChannelInteraction()</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">subscriptionTimeErrorForHandleAndReply()</td>
+<td class="success">0.057s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>00:34:07.172 [reactor-tcp-nio-3] ERROR o.s.m.h.i.r.InvocableHelper - No exception handling method
+org.springframework.messaging.handler.invocation.MethodArgumentResolutionException: Could not resolve method parameter at index 0 in void org.springframework.messaging.rsocket.RSocketBufferLeakTests$ServerController.notDecodable(org.springframework.core.io.Resource): Cannot decode to [org.springframework.core.io.Resource]GenericMessage [payload=FluxPeekFuseable, headers={dataBufferFactory=NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true)), rsocketRequester=org.springframework.messaging.rsocket.DefaultRSocketRequester@16d68034, rsocketResponse=MonoProcessor, lookupDestination=not-decodable, contentType=text/plain, rsocketFrameType=REQUEST_RESPONSE}]
+	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.decodeContent(PayloadMethodArgumentResolver.java:261) ~[main/:?]
+	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:168) ~[main/:?]
+	at org.springframework.messaging.handler.invocation.reactive.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:119) ~[main/:?]
+	at org.springframework.messaging.handler.invocation.reactive.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:183) ~[main/:?]
+	at org.springframework.messaging.handler.invocation.reactive.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:128) ~[main/:?]
+	at org.springframework.messaging.handler.invocation.reactive.InvocableHelper.handleMessage(InvocableHelper.java:194) ~[main/:?]
+	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:458) ~[main/:?]
+	at org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandler.handleMatch(MessageMappingMessageHandler.java:330) ~[main/:?]
+	at org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandler.handleMatch(MessageMappingMessageHandler.java:83) ~[main/:?]
+	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:453) ~[main/:?]
+	at org.springframework.messaging.rsocket.annotation.support.MessagingRSocket.lambda$handleAndReply$4(MessagingRSocket.java:172) ~[main/:?]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:207) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:80) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at io.rsocket.core.RSocketResponder.handleRequestResponse(RSocketResponder.java:445) ~[rsocket-core-1.0.3.jar:?]
+	at io.rsocket.core.RSocketResponder.handleFrame(RSocketResponder.java:304) ~[rsocket-core-1.0.3.jar:?]
+	at reactor.core.publisher.LambdaSubscriber.onNext(LambdaSubscriber.java:160) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:242) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxGroupBy$UnicastGroupedFlux.drainRegular(FluxGroupBy.java:555) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxGroupBy$UnicastGroupedFlux.drain(FluxGroupBy.java:640) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxGroupBy$UnicastGroupedFlux.onNext(FluxGroupBy.java:680) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxGroupBy$GroupByMain.onNext(FluxGroupBy.java:205) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:112) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onNext(FluxMap.java:213) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onNext(FluxMap.java:213) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:265) [reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:371) [reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:358) [reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:96) [reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021年3月5日 上午12:35:13</p>
+</div>
+</div>
+</body>
+</html>

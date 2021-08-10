@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - RSocketClientToServerCoroutinesIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>RSocketClientToServerCoroutinesIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.messaging.rsocket.html">org.springframework.messaging.rsocket</a> &gt; RSocketClientToServerCoroutinesIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.900s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">echoAsync()</td>
+<td class="success">0.053s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">echoChannel()</td>
+<td class="success">0.161s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">echoStream()</td>
+<td class="success">0.103s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">echoStreamAsync()</td>
+<td class="success">0.236s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">fireAndForget()</td>
+<td class="success">0.062s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">fireAndForgetAsync()</td>
+<td class="success">0.074s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleWithThrownException()</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">unitReturnValue()</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">unitReturnValueFromExceptionHandler()</td>
+<td class="success">0.163s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>00:35:02.592 [tcp-client-scheduler-60] WARN  i.n.c.AbstractChannel - Force-closing a channel whose registration task was not accepted by an event loop: [id: 0xa8a926a2]
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:926) ~[netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:353) ~[netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:346) ~[netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:828) ~[netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:818) ~[netty-common-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register(AbstractChannel.java:471) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.SingleThreadEventLoop.register(SingleThreadEventLoop.java:87) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.SingleThreadEventLoop.register(SingleThreadEventLoop.java:81) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at reactor.netty.resources.ColocatedEventLoopGroup.register(ColocatedEventLoopGroup.java:71) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at io.netty.bootstrap.AbstractBootstrap.initAndRegister(AbstractBootstrap.java:323) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:155) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:116) ~[netty-transport-4.1.51.Final.jar:4.1.51.Final]
+	at reactor.netty.resources.PooledConnectionProvider$PooledConnectionAllocator.lambda$connectChannel$0(PooledConnectionProvider.java:245) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:57) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4363) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4223) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4159) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4131) ~[reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.drainLoop(SimpleDequePool.java:317) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.drain(SimpleDequePool.java:260) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.doAcquire(SimpleDequePool.java:255) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.request(AbstractPool.java:382) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.resources.PooledConnectionProvider$DisposableAcquire.onSubscribe(PooledConnectionProvider.java:534) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool$QueueBorrowerMono.subscribe(SimpleDequePool.java:577) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.resources.PooledConnectionProvider.disposableAcquire(PooledConnectionProvider.java:220) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.netty.resources.PooledConnectionProvider.lambda$acquire$3(PooledConnectionProvider.java:184) ~[reactor-netty-0.9.17.RELEASE.jar:0.9.17.RELEASE]
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:57) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.resubscribe(FluxRetryWhen.java:204) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onNext(FluxRetryWhen.java:250) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.tryEmit(FluxFlatMap.java:535) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapInner.onNext(FluxFlatMap.java:999) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) [reactor-core-3.3.14.RELEASE.jar:3.3.14.RELEASE]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021年3月5日 上午12:35:13</p>
+</div>
+</div>
+</body>
+</html>

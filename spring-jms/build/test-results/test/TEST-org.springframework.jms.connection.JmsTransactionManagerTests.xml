@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.connection.JmsTransactionManagerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:32:17" hostname="WIN-LQAMLJ4MN5U" time="0.406">
+  <properties/>
+  <testcase name="testLazyTransactionalSession()" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.181"/>
+  <testcase name="testLazyWithoutSessionAccess()" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionSuspension()" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.01"/>
+  <testcase name="testTransactionCommit()" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.003"/>
+  <testcase name="testSuspendedTransaction()" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.039"/>
+  <testcase name="testParticipatingTransactionWithCommit()" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.016"/>
+  <testcase name="testTransactionRollback()" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.025"/>
+  <testcase name="testParticipatingTransactionWithRollbackOnly()" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.007"/>
+  <testcase name="testTransactionCommitWithMessageProducer()" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.12"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

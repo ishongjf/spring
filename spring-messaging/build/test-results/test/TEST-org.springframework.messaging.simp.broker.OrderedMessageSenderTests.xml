@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.broker.OrderedMessageSenderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:34:09" hostname="WIN-LQAMLJ4MN5U" time="1.421">
+  <properties/>
+  <testcase name="test()" classname="org.springframework.messaging.simp.broker.OrderedMessageSenderTests" time="1.421"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
