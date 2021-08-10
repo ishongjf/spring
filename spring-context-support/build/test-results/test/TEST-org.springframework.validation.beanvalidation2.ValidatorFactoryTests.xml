@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:34:37" hostname="WIN-LQAMLJ4MN5U" time="3.698">
+  <properties/>
+  <testcase name="testValidationWithOptionalField()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.026"/>
+  <testcase name="testSpringValidationFieldType()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="1.303"/>
+  <testcase name="testSpringValidationWithErrorInListElement()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.455"/>
+  <testcase name="testSpringValidationWithClassLevel()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.471"/>
+  <testcase name="testInnerBeanValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.268"/>
+  <testcase name="testSpringValidationWithErrorInSetElement()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.184"/>
+  <testcase name="testSpringValidationWithAutowiredValidator()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.116"/>
+  <testcase name="testSimpleValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.125"/>
+  <testcase name="testListValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.045"/>
+  <testcase name="testSimpleValidationWithClassLevel()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.09"/>
+  <testcase name="testSimpleValidationWithCustomProvider()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.072"/>
+  <testcase name="testSpringValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.537"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

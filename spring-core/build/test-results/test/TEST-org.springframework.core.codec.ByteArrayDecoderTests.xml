@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.codec.ByteArrayDecoderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:38:40" hostname="WIN-LQAMLJ4MN5U" time="1.802">
+  <properties/>
+  <testcase name="decodeToMono()" classname="org.springframework.core.codec.ByteArrayDecoderTests" time="1.767"/>
+  <testcase name="decode()" classname="org.springframework.core.codec.ByteArrayDecoderTests" time="0.034"/>
+  <testcase name="canDecode()" classname="org.springframework.core.codec.ByteArrayDecoderTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

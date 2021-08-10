@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.xml.StaxEventXMLReaderTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:56" hostname="WIN-LQAMLJ4MN5U" time="0.699">
+  <properties/>
+  <testcase name="contentHandlerNamespacesPrefixes()" classname="org.springframework.util.xml.StaxEventXMLReaderTests" time="0.231"/>
+  <testcase name="whitespace()" classname="org.springframework.util.xml.StaxEventXMLReaderTests" time="0.114"/>
+  <testcase name="contentHandlerNoNamespacesPrefixes()" classname="org.springframework.util.xml.StaxEventXMLReaderTests" time="0.036"/>
+  <testcase name="lexicalHandler()" classname="org.springframework.util.xml.StaxEventXMLReaderTests" time="0.179"/>
+  <testcase name="contentHandlerNamespacesNoPrefixes()" classname="org.springframework.util.xml.StaxEventXMLReaderTests" time="0.017"/>
+  <testcase name="partial()" classname="org.springframework.util.xml.StaxEventXMLReaderTests" time="0.12"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

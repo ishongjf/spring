@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.ConstantsTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:38:50" hostname="WIN-LQAMLJ4MN5U" time="0.043">
+  <properties/>
+  <testcase name="ctorWithNullClass()" classname="org.springframework.core.ConstantsTests" time="0.026"/>
+  <testcase name="getValuesInTurkey()" classname="org.springframework.core.ConstantsTests" time="0.003"/>
+  <testcase name="suffixAccess()" classname="org.springframework.core.ConstantsTests" time="0.0"/>
+  <testcase name="toCode()" classname="org.springframework.core.ConstantsTests" time="0.003"/>
+  <testcase name="getValuesWithEmptyStringPrefix()" classname="org.springframework.core.ConstantsTests" time="0.0"/>
+  <testcase name="constants()" classname="org.springframework.core.ConstantsTests" time="0.002"/>
+  <testcase name="getValuesWithNullPrefix()" classname="org.springframework.core.ConstantsTests" time="0.0"/>
+  <testcase name="getValues()" classname="org.springframework.core.ConstantsTests" time="0.004"/>
+  <testcase name="withClassThatExposesNoConstants()" classname="org.springframework.core.ConstantsTests" time="0.002"/>
+  <testcase name="getValuesWithWhitespacedStringPrefix()" classname="org.springframework.core.ConstantsTests" time="0.0"/>
+  <testcase name="getNames()" classname="org.springframework.core.ConstantsTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

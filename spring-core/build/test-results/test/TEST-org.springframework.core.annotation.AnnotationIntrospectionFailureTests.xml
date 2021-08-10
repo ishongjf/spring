@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.annotation.AnnotationIntrospectionFailureTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:38:20" hostname="WIN-LQAMLJ4MN5U" time="0.027">
+  <properties/>
+  <testcase name="filteredTypeThrowsTypeNotPresentException()" classname="org.springframework.core.annotation.AnnotationIntrospectionFailureTests" time="0.017"/>
+  <testcase name="filteredTypeInMetaAnnotationWhenUsingAnnotatedElementUtilsHandlesException()" classname="org.springframework.core.annotation.AnnotationIntrospectionFailureTests" time="0.006"/>
+  <testcase name="filteredTypeInMetaAnnotationWhenUsingMergedAnnotationsHandlesException()" classname="org.springframework.core.annotation.AnnotationIntrospectionFailureTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

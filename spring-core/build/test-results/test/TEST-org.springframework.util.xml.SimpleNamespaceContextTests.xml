@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.xml.SimpleNamespaceContextTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:56" hostname="WIN-LQAMLJ4MN5U" time="0.096">
+  <properties/>
+  <testcase name="bindNamespaceUri_withNullNamespaceUri()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.001"/>
+  <testcase name="clear()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.001"/>
+  <testcase name="getBoundPrefixes()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.001"/>
+  <testcase name="getNamespaceURI()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.001"/>
+  <testcase name="getPrefix()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.002"/>
+  <testcase name="bindNamespaceUri()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.0"/>
+  <testcase name="getPrefixes()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.0"/>
+  <testcase name="getPrefixes_withNull()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.0"/>
+  <testcase name="removeBinding()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.0"/>
+  <testcase name="getPrefix_withNull()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.001"/>
+  <testcase name="getPrefixes_IteratorIsNotModifiable()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.002"/>
+  <testcase name="bindNamespaceUri_withNullPrefix()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.076"/>
+  <testcase name="getNamespaceURI_withNull()" classname="org.springframework.util.xml.SimpleNamespaceContextTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

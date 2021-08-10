@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.ReflectionUtilsTests" tests="21" skipped="2" failures="0" errors="0" timestamp="2021-03-04T16:40:48" hostname="WIN-LQAMLJ4MN5U" time="0.534">
+  <properties/>
+  <testcase name="getDeclaredMethodsReturnsCopy()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="declaresException()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="getUniqueDeclaredMethods()" classname="org.springframework.util.ReflectionUtilsTests" time="0.169"/>
+  <testcase name="getUniqueDeclaredMethods_isFastEnough()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="validCopy()" classname="org.springframework.util.ReflectionUtilsTests" time="0.045"/>
+  <testcase name="invokeMethod()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
+  <testcase name="rejectsNullSrc()" classname="org.springframework.util.ReflectionUtilsTests" time="0.01"/>
+  <testcase name="validCopyOnSubTypeWithNewField()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
+  <testcase name="findMethodWithVarArgs()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="findMethod()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
+  <testcase name="isCglibRenamedMethod()" classname="org.springframework.util.ReflectionUtilsTests" time="0.183"/>
+  <testcase name="copySrcToDestinationOfIncorrectClass()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="findField()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="getAllDeclaredMethods()" classname="org.springframework.util.ReflectionUtilsTests" time="0.015"/>
+  <testcase name="setField()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
+  <testcase name="duplicatesFound()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="rejectsNullDest()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="validCopyToSubType()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
+  <testcase name="doWithProtectedMethods()" classname="org.springframework.util.ReflectionUtilsTests" time="0.065"/>
+  <testcase name="validCopyToSubTypeWithFinalField()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
+  <testcase name="getUniqueDeclaredMethods_withCovariantReturnType()" classname="org.springframework.util.ReflectionUtilsTests" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

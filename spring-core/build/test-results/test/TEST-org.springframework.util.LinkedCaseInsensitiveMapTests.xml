@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.LinkedCaseInsensitiveMapTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:47" hostname="WIN-LQAMLJ4MN5U" time="0.864">
+  <properties/>
+  <testcase name="removeFromEntrySet()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.598"/>
+  <testcase name="clearFromEntrySet()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.001"/>
+  <testcase name="computeIfAbsentWithComputedValue()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.004"/>
+  <testcase name="removeFromKeySet()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.022"/>
+  <testcase name="removeFromValues()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.047"/>
+  <testcase name="putAndGet()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.0"/>
+  <testcase name="putWithOverlappingKeys()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.0"/>
+  <testcase name="getOrDefaultWithNullValue()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.047"/>
+  <testcase name="mapClone()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.0"/>
+  <testcase name="computeIfAbsentWithExistingValue()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.001"/>
+  <testcase name="removeFromEntrySetViaIterator()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.001"/>
+  <testcase name="removeFromKeySetViaIterator()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.126"/>
+  <testcase name="clearFromKeySet()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.006"/>
+  <testcase name="getOrDefault()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.0"/>
+  <testcase name="clearFromValues()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.001"/>
+  <testcase name="removeFromValuesViaIterator()" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
