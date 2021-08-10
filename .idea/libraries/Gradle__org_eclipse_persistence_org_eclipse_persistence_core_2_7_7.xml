@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.persistence:org.eclipse.persistence.core:2.7.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.persistence/org.eclipse.persistence.core/2.7.7/165ff90ef6904e7a14f84c2c921c4109558c676d/org.eclipse.persistence.core-2.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.persistence/org.eclipse.persistence.core/2.7.7/c2563a31e75d17856de7a3af9e114489253936a7/org.eclipse.persistence.core-2.7.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

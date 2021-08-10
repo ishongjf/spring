@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.jetty:jetty-reactive-httpclient:1.1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-reactive-httpclient/1.1.4/3fde9bf4f603e8fe42ed80d908a16377539be3a1/jetty-reactive-httpclient-1.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-reactive-httpclient/1.1.4/9c624a751632fe02b39165fbd3267a17a8c95c37/jetty-reactive-httpclient-1.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

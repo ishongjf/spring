@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-scripting-jvm-host-embeddable:1.3.72">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm-host-embeddable/1.3.72/503dfa9e4f057c347365ae3e10396d8333a4afec/kotlin-scripting-jvm-host-embeddable-1.3.72.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm-host-embeddable/1.3.72/7d0cfd74eea3d0740e29a689205876edaf74ed27/kotlin-scripting-jvm-host-embeddable-1.3.72-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.junit.platform:junit-platform-testkit:1.6.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-testkit/1.6.3/d61579668cf1dcb3a4422b3affadfc7323af9ad3/junit-platform-testkit-1.6.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-testkit/1.6.3/a3c365305b9f4bc0778abd22bb404b776700fff6/junit-platform-testkit-1.6.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
