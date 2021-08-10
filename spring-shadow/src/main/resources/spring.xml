@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:p="http://www.springframework.org/schema/p"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--	<bean id="b" class="com.shadow.example.Compound.B">-->
+<!--		<property name="c" ref="c"></property>-->
+<!--	</bean>-->
+<!--	<bean id="c" class="com.shadow.example.Compound.C">-->
+<!--		<property name="d" ref="d"></property>-->
+<!--	</bean>-->
+<!--	<bean id="d" class="com.shadow.example.Compound.D">-->
+<!--	</bean>-->
+
+<!--	<bean id="a" class="com.shadow.example.Compound.A">-->
+<!--		<property name="b" ref="b"></property>-->
+<!--		<property name="b.c.d.age" value="123"></property>-->
+<!--	</bean>-->
+
+
+<!--		<bean id="b" class="com.shadow.example.Compound.B">-->
+<!--			<property name="c" ref="c"></property>-->
+<!--		</bean>-->
+
+
+</beans>

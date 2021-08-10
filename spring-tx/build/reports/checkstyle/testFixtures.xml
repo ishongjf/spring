@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.22">
+<file name="D:\tools\source\spring-framework-5.2.x\spring-tx\src\testFixtures\java\org\springframework\transaction\testfixture\CallCountingTransactionManager.java">
+</file>
+</checkstyle>

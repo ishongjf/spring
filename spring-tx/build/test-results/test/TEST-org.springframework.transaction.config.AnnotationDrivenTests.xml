@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.config.AnnotationDrivenTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:07" hostname="WIN-LQAMLJ4MN5U" time="6.565">
+  <properties/>
+  <testcase name="withProxyTargetClass()" classname="org.springframework.transaction.config.AnnotationDrivenTests" time="3.899"/>
+  <testcase name="serializableWithoutPreviousUsage()" classname="org.springframework.transaction.config.AnnotationDrivenTests" time="0.994"/>
+  <testcase name="withConfigurationClass()" classname="org.springframework.transaction.config.AnnotationDrivenTests" time="0.18"/>
+  <testcase name="serializableWithPreviousUsage()" classname="org.springframework.transaction.config.AnnotationDrivenTests" time="0.388"/>
+  <testcase name="withAnnotatedTransactionManagers()" classname="org.springframework.transaction.config.AnnotationDrivenTests" time="1.083"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
