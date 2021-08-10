@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scripting.support.StandardScriptFactoryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:47" hostname="WIN-LQAMLJ4MN5U" time="1.201">
+  <properties/>
+  <testcase name="testRefreshableJsr223FromTagWithInterface()" classname="org.springframework.scripting.support.StandardScriptFactoryTests" time="1.088"/>
+  <testcase name="testJsr223FromTagWithInterface()" classname="org.springframework.scripting.support.StandardScriptFactoryTests" time="0.059"/>
+  <testcase name="testInlineJsr223FromTagWithInterface()" classname="org.springframework.scripting.support.StandardScriptFactoryTests" time="0.054"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+]]></system-err>
+</testsuite>

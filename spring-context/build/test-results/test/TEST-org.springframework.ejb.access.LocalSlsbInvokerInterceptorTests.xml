@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:39:53" hostname="WIN-LQAMLJ4MN5U" time="0.072">
+  <properties/>
+  <testcase name="testInvokesMethodOnEjbInstance()" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.049"/>
+  <testcase name="testApplicationException()" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.007"/>
+  <testcase name="testPerformsLookup()" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.002"/>
+  <testcase name="testInvokesMethodOnEjbInstanceWithSeparateBusinessMethods()" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.011"/>
+  <testcase name="testLookupFailure()" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

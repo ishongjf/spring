@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:38:40" hostname="WIN-LQAMLJ4MN5U" time="0.439">
+  <properties/>
+  <testcase name="thisAsClassAndTargetAsClassCounterNotMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests" time="0.064"/>
+  <testcase name="atAnnotationMethodAnnotationMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests" time="0.047"/>
+  <testcase name="targetAsClassDoesMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests" time="0.053"/>
+  <testcase name="thisAsInterfaceAndTargetAsInterfaceCounterMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests" time="0.047"/>
+  <testcase name="targetAsInterfaceMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests" time="0.041"/>
+  <testcase name="thisAsClassDoesNotMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests" time="0.042"/>
+  <testcase name="thisAsInterfaceAndTargetAsClassCounterMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests" time="0.046"/>
+  <testcase name="atTargetClassAnnotationMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests" time="0.046"/>
+  <testcase name="thisAsInterfaceMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests" time="0.049"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

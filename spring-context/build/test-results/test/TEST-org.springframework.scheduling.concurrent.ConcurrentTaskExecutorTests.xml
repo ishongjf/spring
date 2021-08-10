@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:38:26" hostname="WIN-LQAMLJ4MN5U" time="4.938">
+  <properties/>
+  <testcase name="submitCallableWithGetAfterShutdown()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="2.816"/>
+  <testcase name="submitListenableCallableWithGetAfterShutdown()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.184"/>
+  <testcase name="submitListenableCallable()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.081"/>
+  <testcase name="executeRunnable()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.292"/>
+  <testcase name="submitListenableRunnable()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.42"/>
+  <testcase name="submitFailingCallable()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.03"/>
+  <testcase name="submitCallable()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.297"/>
+  <testcase name="submitFailingListenableCallable()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.128"/>
+  <testcase name="submitRunnableWithGetAfterShutdown()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.008"/>
+  <testcase name="submitListenableRunnableWithGetAfterShutdown()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.267"/>
+  <testcase name="submitFailingRunnable()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.025"/>
+  <testcase name="submitRunnable()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.137"/>
+  <testcase name="executeFailingRunnable()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.005"/>
+  <testcase name="submitFailingListenableRunnable()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.219"/>
+  <testcase name="passingNullExecutorToCtorResultsInDefaultTaskExecutorBeingUsed()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.003"/>
+  <testcase name="passingNullExecutorToSetterResultsInDefaultTaskExecutorBeingUsed()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.004"/>
+  <testcase name="zeroArgCtorResultsInDefaultTaskExecutorBeingUsed()" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

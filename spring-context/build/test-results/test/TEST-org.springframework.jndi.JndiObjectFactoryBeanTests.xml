@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jndi.JndiObjectFactoryBeanTests" tests="25" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:06" hostname="WIN-LQAMLJ4MN5U" time="0.094">
+  <properties/>
+  <testcase name="testLookupWithSchemeNameAndResourceRefFalse()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testNoJndiName()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithExpectedTypeAndNoMatch()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithProxyInterfaceAndDefaultObject()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithDefaultObject()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithDefaultObjectAndExpectedTypeConversionViaBeanFactory()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithProxyInterfaceAndExpectedTypeAndNoMatch()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.003"/>
+  <testcase name="testLookupWithShortNameAndResourceRefFalse()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testNotCacheWithoutProxyInterface()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithShortNameAndResourceRefTrue()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithProxyInterfaceAndExpectedTypeAndMatch()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithProxyInterfaceAndLazyLookup()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithProxyInterfaceWithNotCache()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithSchemeNameAndResourceRefTrue()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithProxyInterfaceWithLazyLookupAndNotCache()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithDefaultObjectAndExpectedTypeConversion()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.071"/>
+  <testcase name="testLookupWithExposeAccessContext()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.004"/>
+  <testcase name="testLookupWithArbitraryNameAndResourceRefFalse()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithDefaultObjectAndExpectedTypeNoMatch()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithFullNameAndResourceRefFalse()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLazyLookupWithoutProxyInterface()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithExpectedTypeAndMatch()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithDefaultObjectAndExpectedType()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithProxyInterface()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithFullNameAndResourceRefTrue()" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[M?rz 05, 2021 12:40:07 VORM. ClientIntermediary close
+INFO: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+]]></system-err>
+</testsuite>

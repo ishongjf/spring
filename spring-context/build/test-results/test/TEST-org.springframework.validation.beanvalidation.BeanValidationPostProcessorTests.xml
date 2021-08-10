@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:49" hostname="WIN-LQAMLJ4MN5U" time="0.21">
+  <properties/>
+  <testcase name="testNotNullConstraintAfterInitializationWithProxy()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.091"/>
+  <testcase name="testSizeConstraintSatisfied()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.03"/>
+  <testcase name="testNotNullConstraintAfterInitialization()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.011"/>
+  <testcase name="testNotNullConstraintSatisfied()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.016"/>
+  <testcase name="testSizeConstraint()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.048"/>
+  <testcase name="testNotNullConstraint()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.013"/>
+  <system-out><![CDATA[00:40:49.380 [Test worker] WARN  o.s.c.s.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Bean state is invalid: stringValue - muss zwischen 2 und 2147483647 liegen
+00:40:49.395 [Test worker] WARN  o.s.c.s.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Bean state is invalid: testBean - darf nicht null sein
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

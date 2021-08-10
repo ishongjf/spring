@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:04" hostname="WIN-LQAMLJ4MN5U" time="2.083">
+  <properties/>
+  <testcase name="lazyConnectionAndNoAccess()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.014"/>
+  <testcase name="noServiceUrl()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.002"/>
+  <testcase name="lazyConnection()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.63"/>
+  <testcase name="validConnection()" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="1.436"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[M?rz 05, 2021 12:40:05 VORM. ClientCommunicatorAdmin restart
+WARNING: Failed to restart: java.net.ConnectException: Connection refused: connect
+M?rz 05, 2021 12:40:06 VORM. ClientCommunicatorAdmin restart
+WARNING: Failed to restart: java.net.ConnectException: Connection refused: connect
+]]></system-err>
+</testsuite>

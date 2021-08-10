@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.AnnotationConfigApplicationContextExtensionsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:53" hostname="WIN-LQAMLJ4MN5U" time="1.242">
+  <properties/>
+  <testcase name="Instantiate AnnotationConfigApplicationContext()" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextExtensionsTests" time="1.242"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:07" hostname="WIN-LQAMLJ4MN5U" time="0.492">
+  <properties/>
+  <testcase name="configuredThroughNamespace()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.306"/>
+  <testcase name="taskExecutorByBeanName()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.005"/>
+  <testcase name="taskExecutorByBeanType()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.005"/>
+  <testcase name="exceptionHandlerThrowsUnexpectedException()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="handleExceptionWithCustomExceptionHandler()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.049"/>
+  <testcase name="threadNamePrefix()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.056"/>
+  <testcase name="handleExceptionWithFuture()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.019"/>
+  <testcase name="proxyCreated()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="handleExceptionWithListenableFuture()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.009"/>
+  <testcase name="invokedAsynchronously()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.031"/>
+  <testcase name="invokedAsynchronouslyOnProxyTarget()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

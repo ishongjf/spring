@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:40:51" hostname="WIN-LQAMLJ4MN5U" time="1.514">
+  <properties/>
+  <testcase name="importSpringXml()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.026"/>
+  <testcase name="abstractBeanDefinition()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.032"/>
+  <testcase name="loadExternalBeansWithExplicitRefresh()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.027"/>
+  <testcase name="beanWithFactoryBean()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.016"/>
+  <testcase name="useSpringNamespaceAsMethod()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.344"/>
+  <testcase name="simpleBean()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.013"/>
+  <testcase name="registerBeans()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.009"/>
+  <testcase name="namedArgumentConstructor()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.004"/>
+  <testcase name="scopes()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.036"/>
+  <testcase name="beanWithParentRef()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.015"/>
+  <testcase name="beanWithFactoryMethodWithConstructorArgs()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.014"/>
+  <testcase name="importBeansFromGroovy()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.051"/>
+  <testcase name="useTwoSpringNamespaces()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.133"/>
+  <testcase name="anonymousInnerBeanViaBeanMethod()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.013"/>
+  <testcase name="withAnonymousInnerBean()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.014"/>
+  <testcase name="springAopSupport()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.032"/>
+  <testcase name="anonymousInnerBeanViaBeanMethodWithConstructorArgs()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.021"/>
+  <testcase name="inheritPropertiesFromAbstractBean()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.012"/>
+  <testcase name="groovyBeanDefinitionReaderWithScript()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.402"/>
+  <testcase name="withUntypedAnonymousInnerBean()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.052"/>
+  <testcase name="listOfBeansAsConstructorArg()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.013"/>
+  <testcase name="singletonPropertyOnBeanDefinition()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.01"/>
+  <testcase name="getBeanDefinitions()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.012"/>
+  <testcase name="beanWithConstructor()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.009"/>
+  <testcase name="beanReferences()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.012"/>
+  <testcase name="beanWithFactoryBeanAndMethod()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.005"/>
+  <testcase name="beanWithFactoryMethodUsingClosureArgs()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.013"/>
+  <testcase name="loadExternalBeans()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.032"/>
+  <testcase name="beanWithListAndMapConstructor()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.025"/>
+  <testcase name="contextComponentScanSpringTag()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.043"/>
+  <testcase name="springScopedProxyBean()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.011"/>
+  <testcase name="abstractBeanDefinitionWithClass()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.011"/>
+  <testcase name="abstractBeanSpecifyingClass()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.013"/>
+  <testcase name="springNamespaceBean()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.015"/>
+  <testcase name="holyGrailWiring()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.006"/>
+  <testcase name="beanWithFactoryMethod()" classname="org.springframework.context.groovy.GroovyBeanDefinitionReaderTests" time="0.006"/>
+  <system-out><![CDATA[lets begin
+lets begin
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
