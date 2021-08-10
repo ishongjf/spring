@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:32:39" hostname="WIN-LQAMLJ4MN5U" time="0.1">
+  <properties/>
+  <testcase name="withOpenInputStream()" classname="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" time="0.003"/>
+  <testcase name="dtdValidationAutodetect()" classname="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" time="0.006"/>
+  <testcase name="withInputSource()" classname="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" time="0.001"/>
+  <testcase name="withOpenInputStreamAndExplicitValidationMode()" classname="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" time="0.034"/>
+  <testcase name="xsdValidationAutodetect()" classname="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" time="0.008"/>
+  <testcase name="withWildcardImport()" classname="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" time="0.01"/>
+  <testcase name="withFreshInputStream()" classname="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" time="0.006"/>
+  <testcase name="withInputSourceAndExplicitValidationMode()" classname="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" time="0.005"/>
+  <testcase name="setParserClassSunnyDay()" classname="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" time="0.001"/>
+  <testcase name="withImport()" classname="org.springframework.beans.factory.xml.XmlBeanDefinitionReaderTests" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

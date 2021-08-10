@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.serviceloader.ServiceLoaderTests" tests="3" skipped="3" failures="0" errors="0" timestamp="2021-03-04T16:32:29" hostname="WIN-LQAMLJ4MN5U" time="0.0">
+  <properties/>
+  <testcase name="testServiceListFactoryBean()" classname="org.springframework.beans.factory.serviceloader.ServiceLoaderTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testServiceFactoryBean()" classname="org.springframework.beans.factory.serviceloader.ServiceLoaderTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testServiceLoaderFactoryBean()" classname="org.springframework.beans.factory.serviceloader.ServiceLoaderTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

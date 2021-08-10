@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.SimplePropertyNamespaceHandlerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:32:36" hostname="WIN-LQAMLJ4MN5U" time="0.056">
+  <properties/>
+  <testcase name="simpleBeanConfigured()" classname="org.springframework.beans.factory.xml.SimplePropertyNamespaceHandlerTests" time="0.021"/>
+  <testcase name="propertyWithNameEndingInRef()" classname="org.springframework.beans.factory.xml.SimplePropertyNamespaceHandlerTests" time="0.012"/>
+  <testcase name="withPropertyDefinedTwice()" classname="org.springframework.beans.factory.xml.SimplePropertyNamespaceHandlerTests" time="0.012"/>
+  <testcase name="innerBeanConfigured()" classname="org.springframework.beans.factory.xml.SimplePropertyNamespaceHandlerTests" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
