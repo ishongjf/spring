@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:31:14" hostname="WIN-LQAMLJ4MN5U" time="5.699">
+  <properties/>
+  <testcase name="testAnnotationArgumentNameBinding()" classname="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" time="5.531"/>
+  <testcase name="testParameterNameDiscoverWithReferencePointcut()" classname="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" time="0.021"/>
+  <testcase name="testBindingInPointcutUsedByAdvice()" classname="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" time="0.146"/>
+  <system-out><![CDATA[Invoked with transaction @org.springframework.aop.aspectj.annotation.Transactional()
+got 'Supercalifragalisticexpialidocious' at 'execution(void org.springframework.beans.testfixture.beans.ITestBean.setName(String))'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

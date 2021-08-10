@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:31:20" hostname="WIN-LQAMLJ4MN5U" time="0.285">
+  <properties/>
+  <testcase name="testWithNonAspect()" classname="org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests" time="0.002"/>
+  <testcase name="testUnproxiedVarargsWithEnumArray()" classname="org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests" time="0.062"/>
+  <testcase name="testWithInstance()" classname="org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests" time="0.072"/>
+  <testcase name="testWithPerThisAspect()" classname="org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests" time="0.065"/>
+  <testcase name="testWithInstanceWithNonAspect()" classname="org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests" time="0.001"/>
+  <testcase name="testWithNonSingletonAspectInstance()" classname="org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests" time="0.066"/>
+  <testcase name="testWithSimpleAspect()" classname="org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests" time="0.003"/>
+  <testcase name="testProxiedVarargsWithEnumArray()" classname="org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests" time="0.003"/>
+  <testcase name="testSerializable()" classname="org.springframework.aop.aspectj.annotation.AspectProxyFactoryTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
