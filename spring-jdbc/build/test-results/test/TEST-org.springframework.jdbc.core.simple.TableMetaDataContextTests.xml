@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.simple.TableMetaDataContextTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:33:15" hostname="WIN-LQAMLJ4MN5U" time="0.047">
+  <properties/>
+  <testcase name="testTableWithSingleColumnGeneratedKey()" classname="org.springframework.jdbc.core.simple.TableMetaDataContextTests" time="0.007"/>
+  <testcase name="testMatchInParametersAndSqlTypeInfoWrapping()" classname="org.springframework.jdbc.core.simple.TableMetaDataContextTests" time="0.04"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.RowMapperTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:33:15" hostname="WIN-LQAMLJ4MN5U" time="0.12">
+  <properties/>
+  <testcase name="preparedStatementSetterWithRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.045"/>
+  <testcase name="queryWithArgsAndRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.048"/>
+  <testcase name="queryWithArgsAndTypesAndRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.009"/>
+  <testcase name="staticQueryWithRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.004"/>
+  <testcase name="preparedStatementCreatorWithRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

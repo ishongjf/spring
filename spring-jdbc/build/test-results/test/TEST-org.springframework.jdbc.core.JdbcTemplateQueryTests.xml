@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.JdbcTemplateQueryTests" tests="26" skipped="0" failures="0" errors="0" timestamp="2021-03-04T16:33:11" hostname="WIN-LQAMLJ4MN5U" time="0.758">
+  <properties/>
+  <testcase name="testQueryForListWithArgsAndEmptyResult()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.347"/>
+  <testcase name="testQueryForObjectWithBigDecimal()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.007"/>
+  <testcase name="testQueryForIntPrimitive()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.011"/>
+  <testcase name="testQueryForObjectWithBigInteger()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.035"/>
+  <testcase name="testQueryForMapWithSingleRowAndColumn()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.006"/>
+  <testcase name="testQueryForObjectWithString()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.006"/>
+  <testcase name="testQueryForListWithArgs()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.007"/>
+  <testcase name="testQueryForListWithArgsAndIntegerElementAndSingleRowAndColumn()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.007"/>
+  <testcase name="testQueryForObjectWithIntegerAndNull()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.078"/>
+  <testcase name="testQueryForObjectWithInteger()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.008"/>
+  <testcase name="testQueryForObjectWithArgsAndRowMapper()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.008"/>
+  <testcase name="testQueryForLongPrimitive()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.006"/>
+  <testcase name="testQueryForLongWithArgs()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.029"/>
+  <testcase name="testQueryForIntWithArgs()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.006"/>
+  <testcase name="testQueryForListWithArgsAndSingleRowAndColumn()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.006"/>
+  <testcase name="testQueryForObjectWithRowMapper()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.008"/>
+  <testcase name="testQueryForListWithIntegerElement()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.006"/>
+  <testcase name="testQueryForObjectWithArgsAndInteger()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.023"/>
+  <testcase name="testQueryForObjectThrowsIncorrectResultSizeForMoreThanOneRow()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.007"/>
+  <testcase name="testQueryForMapWithArgsAndSingleRowAndColumn()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.01"/>
+  <testcase name="testQueryForListIsNotConfusedByNamedParameterPrefix()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.009"/>
+  <testcase name="testQueryForListWithSingleRowAndColumn()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.005"/>
+  <testcase name="testQueryForListWithEmptyResult()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.06"/>
+  <testcase name="testQueryForList()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.006"/>
+  <testcase name="testQueryForLong()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.007"/>
+  <testcase name="testQueryForInt()" classname="org.springframework.jdbc.core.JdbcTemplateQueryTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
